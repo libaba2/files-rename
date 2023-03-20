@@ -1,0 +1,21 @@
+{
+  "name": "renamefs",
+  "version": "1.0.5",
+  "description": "files-rename",
+  "main": "index.js",
+  "scripts": {
+    "start": "node start.js"
+  },
+  "keywords": [
+    "files",
+    "rename",
+    "batch"
+  ],
+  "bin": {
+    "@renamefs start": "start.js"
+  },
+  "author": "libaba2",
+  "dependencies": {
+    "inquirer": "^8.0.0"
+  }
+}
