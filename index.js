@@ -56,5 +56,6 @@ async function pathInput() {
 };
 
 module.exports = {
-    main
+    main,
+    start: baseFilesReaname
 };

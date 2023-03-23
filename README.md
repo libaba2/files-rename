@@ -5,10 +5,16 @@
 #### 使用
 
 ```javascript
+// 交互式 手动入参
 const {main} = require('renamefs');
 main();
+
+// 代码入参
+const {start} = require('renamefs');
+start(config);
+
 // or 命令行执行
-@renamefs start
+renamefs
 ```
 
 

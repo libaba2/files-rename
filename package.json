@@ -1,6 +1,6 @@
 {
   "name": "renamefs",
-  "version": "1.0.5",
+  "version": "1.0.7",
   "description": "files-rename",
   "main": "index.js",
   "scripts": {
@@ -12,8 +12,9 @@
     "batch"
   ],
   "bin": {
-    "@renamefs start": "start.js"
+    "renamefs": "./start.js"
   },
+  "license": "MIT",
   "author": "libaba2",
   "dependencies": {
     "inquirer": "^8.0.0"
